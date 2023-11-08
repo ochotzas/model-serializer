@@ -10,11 +10,7 @@ setup(
     author_email='olgerdev@icloud.com',
     url='https://github.com/ochotzas/',
     packages=find_packages(),
-    install_requires=[
-        'unittest',
-        'json',
-        'os'
-    ],
+    install_requires=find_packages(),
     python_requires='>=3.9',
     license='MIT',
     classifiers=[
