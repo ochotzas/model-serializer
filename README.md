@@ -68,7 +68,7 @@ Here's an example of how to use these classes:
 from model_serializer import ModelSerializer
 from directory_tree_builder import DirectoryTreeBuilder
 
-# Example for ModelSerializer
+# Example for app
 data = {"name": "John", "age": 30, "city": "New York"}
 serializer = ModelSerializer(data)
 json_data = serializer.to_json()
