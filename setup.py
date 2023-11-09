@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='model-serializer',
-    version='1.0.1',
+    version='1.0.2',
     description='A simple Python package for serializing and deserializing Python objects to and from JSON.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
