@@ -4,7 +4,7 @@ import json
 class ModelSerializer:
     def __init__(self, model=None):
         """
-        Initialize the app with a model object.
+        Initialize the ModelSerializer with a model object.
 
         :param model: The model object to serialize.
         """
